@@ -681,13 +681,20 @@ define Device/tl-wa850re-v1
     TPLINK_HWID := 0x08500001
 endef
 
+define Device/tl-wa850re-v2
+    $(Device/tplink-4mlzma)
+    BOARDNAME := TL-WA850RE-v2
+    DEVICE_PROFILE := TLWA850
+    TPLINK_HWID := 0x08500002
+endef
+
 define Device/tl-wa860re-v1
     $(Device/tplink-4mlzma)
     BOARDNAME := TL-WA860RE
     DEVICE_PROFILE := TLWA860
     TPLINK_HWID := 0x08600001
 endef
-TARGET_DEVICES += tl-wa801nd-v2 tl-wa830re-v2 tl-wa850re-v1 tl-wa860re-v1
+TARGET_DEVICES += tl-wa801nd-v2 tl-wa830re-v2 tl-wa850re-v1 tl-wa850re-v2 tl-wa860re-v1
 
 define Device/tl-wa901nd-v3
     $(Device/tplink-4mlzma)
