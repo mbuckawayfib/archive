@@ -1,3 +1,7 @@
+## The GIHUB Repo is depreciated and has been moved internally to GITLAB. DO NOT COMMIT CHANGES TO THIS REPO!
+
+
+
 This is the buildsystem for the OpenWrt Linux distribution.
 
 Please use "make menuconfig" to configure your appreciated
